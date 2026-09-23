@@ -17,46 +17,55 @@ interface SkillCategory {
 export class Skills {
   categories: SkillCategory[] = [
     {
-      title: 'Frontend Engineering',
-      subtitle: 'Building responsive, reactive, and modular web interfaces',
+      title: 'Frontend Development',
+      subtitle: 'Responsive interfaces and interactive web applications',
       iconBg: 'bg-indigo-100 dark:bg-indigo-900/50',
       iconColor: 'text-indigo-600 dark:text-indigo-400',
       skills: [
         { name: 'Angular', tag: 'Primary' },
         { name: 'TypeScript' },
-        { name: 'JavaScript (ES6+)' },
-        { name: 'HTML5 & CSS3' },
-        { name: 'Tailwind CSS' },
+        { name: 'JavaScript' },
+        { name: 'HTML5' },
+        { name: 'CSS3' },
+        { name: 'Bootstrap' },
         { name: 'Angular Material' },
-        { name: 'RxJS & NgModules' }
-      ]
+        { name: 'RxJS' },
+      ],
     },
     {
-      title: 'Backend & Database Architecture',
-      subtitle: 'Designing REST APIs, business logic, and relational schemas',
+      title: 'Backend & Database',
+      subtitle: 'APIs, workflows, access control, and relational data',
       iconBg: 'bg-emerald-100 dark:bg-emerald-900/50',
       iconColor: 'text-emerald-600 dark:text-emerald-400',
       skills: [
         { name: 'PHP', tag: 'Primary' },
         { name: 'Laravel', tag: 'Primary' },
         { name: 'MySQL', tag: 'Primary' },
-        { name: 'RESTful API Design' },
-        { name: 'Database Optimization' },
-        { name: 'Authentication & Security' }
-      ]
+        { name: 'MariaDB' },
+        { name: 'REST APIs' },
+        { name: 'JWT Authentication' },
+        { name: 'CRUD' },
+        { name: 'Role-Based Access' },
+        { name: 'Chart.js' },
+      ],
     },
     {
-      title: 'Automation & Modern Tools',
-      subtitle: 'Accelerating deployment and building intelligent integrations',
+      title: 'Development Tools & Workflow',
+      subtitle: 'Version control, tooling, and AI-assisted development',
       iconBg: 'bg-purple-100 dark:bg-purple-900/50',
       iconColor: 'text-purple-600 dark:text-purple-400',
       skills: [
+        { name: 'Git' },
+        { name: 'GitHub' },
+        { name: 'VS Code' },
+        { name: 'XAMPP' },
+        { name: 'Apache' },
         { name: 'GoHighLevel' },
-        { name: 'Lovable' },
-        { name: 'API Integrations' },
-        { name: 'Git & GitHub' },
-        { name: 'Agile & Code Reviews' }
-      ]
-    }
+        { name: 'GitHub Copilot' },
+        { name: 'ChatGPT' },
+        { name: 'Claude' },
+        { name: 'Antigravity' },
+      ],
+    },
   ];
 }
